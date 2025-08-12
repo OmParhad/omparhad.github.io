@@ -36,7 +36,7 @@ It includes:
 ## 📬 Contact Me
 
 * **Email:** omparhad4@gmail.com(mailto:your-email@example.com)]
-* **LinkedIn:**Your LinkedIn Profile(https://linkedin.com/in/yourprofile)
+* **LinkedIn:** Your LinkedIn Profile(https://linkedin.com/in/yourprofile)
 * **GitHub:**@omparhad(https://github.com/omparhad)
 
 ---
