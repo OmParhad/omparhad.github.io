@@ -1,390 +1,68 @@
-<!doctype html>
-<html lang="en">
+export default function Portfolio() {
+  return (
+    <div className="min-h-screen bg-black text-white p-6">
+      <header className="flex justify-between items-center mb-12">
+        <h1 className="text-xl font-semibold tracking-wide">Om — Tech Portfolio</h1>
+        <nav className="space-x-6 text-sm opacity-80">
+          <a href="#projects">Projects</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <link rel="icon" type="image/x-icon" href="Design.ico" />
-  <title>Om Parhad — AI & Data Science Student</title>
+      <section className="text-center mb-24">
+        <img
+          src="https://placehold.co/120x120"
+          alt="profile"
+          className="rounded-full mx-auto mb-6"
+        />
+        <h2 className="text-4xl font-bold mb-2">Hi, I'm Om 👋</h2>
+        <p className="text-lg opacity-80 max-w-2xl mx-auto">
+          I build software, AI tools, and digital experiences for the modern web.
+          Currently working in the intersection of tech, creativity, and research.
+        </p>
+      </section>
 
-  <style>
-    :root {
-      --bg: #0f1724;
-      --card: #0b1220;
-      --muted: #94a3b8;
-      --accent: #3b82f6;
-      --glass: rgba(255, 255, 255, 0.03);
-      --maxw: 1000px;
-    }
-
-    * {
-      box-sizing: border-box
-    }
-
-    body {
-      margin: 0;
-      font-family: Inter, system-ui, Segoe UI, Roboto, "Helvetica Neue", Arial;
-      background: linear-gradient(180deg, #071022 0%, #071122 60%);
-      color: #e6eef8;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-      line-height: 1.45;
-    }
-
-    .wrap {
-      max-width: var(--maxw);
-      margin: 36px auto;
-      padding: 20px;
-    }
-
-    header {
-      display: flex;
-      gap: 20px;
-      align-items: center;
-      justify-content: space-between
-    }
-
-    .brand {
-      display: flex;
-      gap: 14px;
-      align-items: center
-    }
-
-    .logo {
-      width: 56px;
-      height: 56px;
-      border-radius: 10px;
-      background: linear-gradient(135deg, var(--accent), #06b6d4);
-      display: grid;
-      place-items: center;
-      font-weight: 700;
-      color: white;
-      font-size: 18px;
-      box-shadow: 0 6px 18px rgba(11, 20, 32, 0.6);
-    }
-
-    h1 {
-      margin: 0;
-      font-size: 20px
-    }
-
-    .tag {
-      color: var(--muted);
-      margin-top: 6px;
-      font-size: 13px
-    }
-
-    nav a {
-      color: var(--muted);
-      text-decoration: none;
-      margin-left: 14px;
-      font-size: 14px
-    }
-
-    .hero {
-      margin-top: 28px;
-      display: grid;
-      grid-template-columns: 1fr 340px;
-      gap: 26px;
-    }
-
-    .card {
-      background: var(--card);
-      border-radius: 12px;
-      padding: 18px;
-      box-shadow: 0 6px 18px rgba(4, 8, 16, 0.6);
-    }
-
-    .intro h2 {
-      margin: 0 0 8px 0;
-      font-size: 24px
-    }
-
-    .intro p {
-      color: var(--muted);
-      margin: 0 0 12px 0
-    }
-
-    .cta {
-      display: inline-block;
-      background: var(--accent);
-      color: white;
-      padding: 10px 14px;
-      border-radius: 8px;
-      text-decoration: none;
-      font-weight: 600
-    }
-
-    .small {
-      font-size: 13px;
-      color: var(--muted)
-    }
-
-    /* right column (demo + contact) */
-    .side .demo {
-      background: linear-gradient(135deg, rgba(59, 130, 246, 0.06), rgba(6, 182, 212, 0.03));
-      border: 1px solid rgba(255, 255, 255, 0.03);
-      padding: 12px;
-      border-radius: 10px
-    }
-
-    .cred {
-      display: flex;
-      flex-direction: column;
-      gap: 6px;
-      margin-top: 8px
-    }
-
-    .cred div {
-      background: var(--glass);
-      padding: 8px 10px;
-      border-radius: 8px;
-      color: var(--muted);
-      font-weight: 600
-    }
-
-    .projects {
-      margin-top: 22px;
-      display: grid;
-      gap: 14px
-    }
-
-    .proj {
-      display: flex;
-      gap: 12px;
-      align-items: center
-    }
-
-    .proj .thumb {
-      width: 84px;
-      height: 64px;
-      border-radius: 8px;
-      background: linear-gradient(180deg, #0b1220, #061025);
-      display: grid;
-      place-items: center;
-      color: var(--muted);
-      font-weight: 700;
-      border: 1px solid rgba(255, 255, 255, 0.02)
-    }
-
-    .proj h3 {
-      margin: 0;
-      font-size: 16px
-    }
-
-    .proj p {
-      margin: 4px 0 0;
-      color: var(--muted);
-      font-size: 13px
-    }
-
-    .proj .actions {
-      margin-left: auto;
-      display: flex;
-      gap: 8px
-    }
-
-    .btn {
-      background: transparent;
-      border: 1px solid rgba(255, 255, 255, 0.06);
-      color: var(--muted);
-      padding: 8px 10px;
-      border-radius: 8px;
-      text-decoration: none;
-      font-weight: 600
-    }
-
-    .btn.primary {
-      background: var(--accent);
-      color: white;
-      border: 0
-    }
-
-    .skills {
-      display: flex;
-      gap: 10px;
-      flex-wrap: wrap;
-      margin-top: 12px
-    }
-
-    .skill {
-      background: var(--glass);
-      color: var(--muted);
-      padding: 8px 10px;
-      border-radius: 999px;
-      font-weight: 600;
-      font-size: 13px
-    }
-
-    .projects-grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 14px;
-      margin-top: 20px
-    }
-
-    .project-card {
-      background: linear-gradient(180deg, #07101b, #071022);
-      padding: 14px;
-      border-radius: 12px;
-      border: 1px solid rgba(255, 255, 255, 0.03)
-    }
-
-    .project-card h4 {
-      margin: 0 0 6px 0
-    }
-
-    footer {
-      margin-top: 30px;
-      color: var(--muted);
-      text-align: center;
-      font-size: 13px
-    }
-
-    @media (max-width:900px) {
-      .hero {
-        grid-template-columns: 1fr;
-      }
-
-      .projects-grid {
-        grid-template-columns: 1fr
-      }
-
-      header {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 12px
-      }
-    }
-  </style>
-</head>
-
-<body>
-  <div class="wrap">
-    <header>
-      <div class="brand">
-        <div class="logo">OP</div>
-        <div>
-          <h1>Om Parhad</h1>
-          <div class="tag">AI & Data Science Student · Building real-world AI tools</div>
-        </div>
-      </div>
-      <nav>
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </header>
-
-    <section class="hero">
-      <div class="card intro">
-        <h2>Hello — I build practical AI/ML tools</h2>
-        <p class="small">I'm a second-year AI & Data Science student focused on building useful, real-world projects in
-          computer vision, LLMs, and web tools. I like small, complete apps you can demo in minutes.</p>
-
-        <a class="cta" href="#projects">View Projects</a>
-
-        <div class="projects-grid" id="projects">
-          <!-- Project 1 -->
-          <div class="project-card">
-            <h4>ClipCatch — Gradio YouTube Downloader</h4>
-            <p class="small">A Gradio app to download YouTube videos & audio with a copyright-aware cap. Demo + source
-              available.</p>
-            <div style="margin-top:10px;display:flex;gap:8px;">
-              <a class="btn primary" href="https://huggingface.co/spaces/omparhad/ClipCatch" target="_blank">Live Demo</a>
-              <a class="btn" href="https://github.com/OmParhad/Clipcatch" target="_blank">GitHub</a>
-            </div>
+      <section id="projects" className="mb-24">
+        <h3 className="text-2xl font-semibold mb-8 text-center">Recent Launches 🚀</h3>
+        <div className="grid md:grid-cols-3 gap-6">
+            <a href="https://example.com/yt-video-downloader" className="text-white hover:underline">YT Video Downloader</a>
           </div>
-
-          <!-- Project 2 -->
-          <div class="project-card">
-            <h4>Wavey — Hello Translator</h4>
-            <p class="small">Offline GUI app that translates 'Hello' into many languages using a local mapping — no APIs
-              required.</p>
-            <div style="margin-top:10px;display:flex;gap:8px;">
-              <a class="btn primary" href="#" target="_blank">Download</a>
-              <a class="btn" href="#" target="_blank">Source</a>
-            </div>
-          </div>
+          <div className="bg-neutral-900 p-4 rounded-2xl min-h-[200px]">Project 2 Placeholder</div></a>
+          <div className="bg-neutral-900 p-4 rounded-2xl min-h-[200px]">Project 3 Placeholder</div>
         </div>
+      </section>
 
-        <h3 style="margin-top:18px">About</h3>
-
-        <p class="small">I’m Om Parhad, an AI & Data Science student with a sharp focus on creating practical,
-          high-impact AI solutions. I specialize in transforming raw ideas into working tools — from AI-powered
-          applications to intelligent automation systems. My expertise spans machine learning, data analysis, and
-          natural language processing, with hands-on experience in building tools that solve real-world problems.
-
-          I approach every project with a blend of technical precision, creativity, and a results-driven mindset.
-          Whether it’s streamlining business processes, enhancing user experiences, or crafting innovative AI
-          prototypes, my goal is always to deliver solutions that matter. If you’re looking for someone who can turn
-          complex AI concepts into user-friendly realities, you’re in the right place..</p>
-
-        <h3 style="margin-top:16px">Featured Skills</h3>
-        <div class="skills" id="skills">
-          <div class="skill">Python</div>
-          <div class="skill">Gradio</div>
-          <div class="skill">OpenCV</div>
-          <div class="skill">LangChain</div>
-          <div class="skill">Git & GitHub</div>
-          <div class="skill">Prompt Engineering</div>
+      <section id="stack" className="mb-24 text-center">
+        <h3 className="text-2xl font-semibold mb-8">Tech Stack 🧩</h3>
+        <p className="opacity-80 max-w-xl mx-auto">
+          Specialized in web development, AI, data systems, and creative tooling.
+        </p>
+        <div className="flex flex-wrap justify-center gap-3 mt-6 opacity-80 text-sm">
+          <span>Next.js</span><span>React</span><span>Node.js</span><span>Python</span><span>SQL</span><span>TensorFlow</span><span>Docker</span>
         </div>
-      </div>
+      </section>
 
-      <aside class="card side">
-        <div style="display:flex;align-items:center;justify-content:space-between">
-          <div>
-            <strong style="font-size:15px">Contact</strong>
-            <div class="small" style="margin-top:6px">Email: <a href="mailto:youremail@example.com"
-                style="color:var(--accent);text-decoration:none">omparhad4@gmail.com</a></div>
-            <div class="small" style="margin-top:6px">GitHub: <a href="https://github.com/omparhad"
-                style="color:var(--accent);text-decoration:none" target="_blank">@omparhad</a></div>
-          </div>
-        </div>
+      <section id="about" className="mb-24 text-center max-w-2xl mx-auto opacity-90">
+        <h3 className="text-2xl font-semibold mb-6">About Me</h3>
+        <p>
+          Full‑time learner, part‑time builder. I explore AI, data, system
+          design, and tech storytelling. I like shipping things to the internet
+          and studying how people use technology.
+        </p>
+      </section>
 
+      <section id="contact" className="text-center mb-12">
+        <h3 className="text-2xl font-semibold mb-4">Let's Build Something</h3>
+        <p className="opacity-80 mb-6">Open for collaborations, research, and product work.</p>
+        <button className="bg-white text-black rounded-xl px-6 py-3 font-medium">
+          Contact Me
+        </button>
+      </section>
 
-        <div style="margin-top:14px">
-
-          <strong>Quick Projects</strong>
-          <div class="projects" style="margin-top:10px">
-            <div class="proj">
-              <div class="thumb">YT</div>
-              <div>
-                <h3 style="font-size:15px">Gradio YT Downloader</h3>
-                <p>Download audio/video with safe checks.</p>
-              </div>
-              <div class="actions">
-                <a class="btn" href="#" target="_blank">Demo</a>
-                <a class="btn" href="#" target="_blank">Code</a>
-              </div>
-            </div>
-
-            <div class="proj">
-              <div class="thumb">TR</div>
-              <div>
-                <h3 style="font-size:15px">Wavey Translator</h3>
-                <p>Offline "Hello" translator.</p>
-              </div>
-              <div class="actions">
-                <a class="btn" href="#" target="_blank">Download</a>
-                <a class="btn" href="#" target="_blank">Source</a>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-        <div style="margin-top:16px" class="small">
-          Want to collaborate? Email me or open an issue on my GitHub repo — I reply fast.
-        </div>
-      </aside>
-    </section>
-
-    <footer id="contact">
-      © 2025 Om Parhad | All rights reserved. · <a href="https://omparhad.code.blog"
-        style="color:var(--muted);text-decoration:none">Blog</a>
-    </footer>
-  </div>
-</body>
-
-</html>
+      <footer className="text-center opacity-50 text-sm mt-10">
+        © {new Date().getFullYear()} Om — All rights reserved.
+      </footer>
+    </div>
+  );
+}
