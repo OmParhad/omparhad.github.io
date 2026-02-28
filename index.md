@@ -25,7 +25,7 @@ My interests include:
 
 ## Recent Writing
 
-- [Why I Am Studying Probability Before Deep Learning](/2026/03/02/my-first-serious-post.html)
+
 
 ---
 
