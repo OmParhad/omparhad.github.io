@@ -11,3 +11,7 @@ title: Om | AI & Data Science
 header_pages:
   - blog.md
   - projects.md
+
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
