@@ -22,9 +22,9 @@ Understanding this tradeoff transforms machine learning from a trial-and-error e
 
 Assume we are trying to learn a function:
 
-\[
+$$
 y = f(x) + \epsilon
-\]
+$$
 
 Where:
 
@@ -35,7 +35,7 @@ Where:
 Our model produces an estimator \( \hat{f}(x) \).
 
 The question is:  
-How far is \( \hat{f}(x) \) from the true \( f(x) \)?
+How far is $$( \hat{f}(x) \) from the true \( f(x) \)$$?
 
 ---
 
@@ -43,9 +43,9 @@ How far is \( \hat{f}(x) \) from the true \( f(x) \)?
 
 The expected prediction error at a point \( x \) can be decomposed into:
 
-\[
+$$
 \text{Error} = \text{Bias}^2 + \text{Variance} + \text{Irreducible Noise}
-\]
+$$
 
 Each term represents a fundamentally different failure mode.
 
@@ -57,9 +57,9 @@ Bias measures how far the average model prediction is from the true function.
 
 Formally:
 
-\[
+$$
 \text{Bias}(x) = \mathbb{E}[\hat{f}(x)] - f(x)
-\]
+$$
 
 High bias arises when:
 
@@ -83,9 +83,9 @@ Variance measures how much the model prediction changes if we train it on differ
 
 Formally:
 
-\[
+$$
 \text{Variance}(x) = \mathbb{E}[(\hat{f}(x) - \mathbb{E}[\hat{f}(x)])^2]
-\]
+$$
 
 High variance arises when:
 
@@ -107,9 +107,9 @@ High variance → Overfitting.
 
 Even with a perfect model, we cannot eliminate:
 
-\[
+$$
 \text{Var}(\epsilon)
-\]
+$$
 
 This is randomness inherent in the data generation process.
 
