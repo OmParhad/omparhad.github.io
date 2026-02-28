@@ -3,8 +3,8 @@ layout: default
 title: Home
 ---
 
-# Om
-
+# Om Parhad
+ 
 BSc student in AI & Data Science at IIT Jodhpur.
 
 I am interested in building reliable and interpretable machine learning systems.  
