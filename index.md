@@ -3,7 +3,7 @@ layout: home
 title: Home
 ---
 
-# Om
+# Om Parhad
 
 BSc student in AI & Data Science at IIT Jodhpur.
 > Building reliable machine learning systems through mathematical clarity.
@@ -21,13 +21,7 @@ My interests include:
 - Model calibration and uncertainty  
 - Optimization dynamics  
 
----
 
-## Recent Writing
-
-
-
----
 
 ## Current Study Log
 
