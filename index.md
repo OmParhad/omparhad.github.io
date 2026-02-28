@@ -1,11 +1,12 @@
 ---
-layout: default
+layout: home
 title: Home
 ---
 
 # Om
 
 BSc student in AI & Data Science at IIT Jodhpur.
+> Building reliable machine learning systems through mathematical clarity.
 
 I am currently focused on understanding the mathematical foundations of machine learning and building small experimental systems to test theoretical insights.
 
