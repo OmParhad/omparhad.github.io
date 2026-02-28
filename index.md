@@ -3,31 +3,34 @@ layout: default
 title: Home
 ---
 
-# Om Parhad
- 
+# Om
+
 BSc student in AI & Data Science at IIT Jodhpur.
 
-I am interested in building reliable and interpretable machine learning systems.  
-My current focus is on understanding the mathematical foundations of learning algorithms and documenting experiments rigorously.
+I am currently focused on understanding the mathematical foundations of machine learning and building small experimental systems to test theoretical insights.
 
 ---
 
-## Research Interests
+## Research Direction
+
+My interests include:
 
 - Statistical learning theory  
-- Model generalization and overfitting  
-- Uncertainty estimation  
-- Optimization in deep learning  
+- Generalization in deep learning  
+- Model calibration and uncertainty  
+- Optimization dynamics  
 
 ---
 
-## Current Focus
+## Recent Writing
 
-Studying probability theory, linear algebra, and core ML algorithms while building small experimental systems to test theoretical understanding.
+- [Why I Am Studying Probability Before Deep Learning](/2026/03/02/my-first-serious-post.html)
 
 ---
 
-## Contact
+## Current Study Log
 
-Email: your-email@example.com  
-GitHub: https://github.com/YOUR-USERNAME
+March 2026:
+- Probability theory (random variables & expectation)
+- Linear algebra (eigenvalues & SVD)
+- Gradient descent convergence analysis
