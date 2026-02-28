@@ -3,6 +3,13 @@ title: "Bias–Variance Tradeoff: An Intuitive Exploration"
 date: 2026-02-28
 ---
 
+## Visualizing the Tradeoff
+
+![Training vs Test Error](/assets/images/bias_variance_curve.png)
+
+![High Bias Low Variance Illustration](/assets/images/high_bias_low_variance.png)
+
+
 ## 1. Why the Bias–Variance Tradeoff Matters
 
 In supervised learning, our objective is not to perfectly memorize the training data, but to generalize well to unseen data. The central tension governing this behavior is the bias–variance tradeoff.
