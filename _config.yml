@@ -1,0 +1,11 @@
+title: Om
+description: AI & Data Science | Research Portfolio
+
+url: "https://YOUR-USERNAME.github.io"
+baseurl: ""
+
+theme: minima
+
+header_pages:
+  - blog.md
+  - projects.md
