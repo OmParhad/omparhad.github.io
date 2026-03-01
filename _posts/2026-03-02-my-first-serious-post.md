@@ -28,11 +28,11 @@ $$
 
 Where:
 
-- \( f(x) \) is the true underlying function
-- \( \epsilon \) is irreducible noise
+-$$ \( f(x) \)$$ is the true underlying function
+- $$\( \epsilon \)$$ is irreducible noise
 - We observe finite training samples
 
-Our model produces an estimator \( \hat{f}(x) \).
+Our model produces an estimator $$\( \hat{f}(x) \)$$.
 
 The question is:  
 How far is $$( \hat{f}(x) \) from the true \( f(x) \)$$?
