@@ -16,8 +16,4 @@ markdown: kramdown
 kramdown:
   math_engine: mathjax
 
-date: YYYY-MM-DD hh:mm:ss -0000
-categories:
-  - Category-1
-  - Category-2
----
+
