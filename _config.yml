@@ -15,3 +15,11 @@ header_pages:
 markdown: kramdown
 kramdown:
   math_engine: mathjax
+
+layout: post
+title: "My Categorized Post"
+date: YYYY-MM-DD hh:mm:ss -0000
+categories:
+  - Category-1
+  - Category-2
+---
