@@ -6,10 +6,11 @@ permalink: /about/
 
 
 Hello, I’m **Om Parhad**.
+> AI & Data Science Student | Machine Learning Research Enthusiast
 
 I am an undergraduate student studying **Artificial Intelligence and Data Science**, with a strong interest in **machine learning, data analysis, and AI systems**. My academic focus is on understanding how machine learning models work at a mathematical and algorithmic level, rather than only using them as black-box tools.
 
-This website serves as my **academic learning journal and research portfolio**, where I document my exploration of machine learning concepts, experiments, and research ideas.
+This website serves as my academic learning journal where I document machine learning concepts, experiments, and research explorations
 
 ---
 
@@ -74,11 +75,10 @@ I am currently preparing for graduate-level research and aim to pursue **Master'
 
 You can find my work and writing here:
 
-GitHub:  
-https://github.com/omparhad  
+GitHub: github.com/omparhad
 
-Non - Technical Blog (WordPress):  
-https://omparhad.code.blog  
+Non - Technical Blog (WordPress): omparhad. code.blog  
+  
 
 ---
 
