@@ -4,7 +4,6 @@ title: About
 permalink: /about/
 ---
 
-# About Me
 
 Hello, I’m **Om Parhad**.
 
