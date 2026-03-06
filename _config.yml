@@ -11,6 +11,7 @@ title: Om | AI & Data Science
 header_pages:
   - blog.md
   - projects.md
+  - About Me
 
 markdown: kramdown
 kramdown:
