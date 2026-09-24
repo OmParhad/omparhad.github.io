@@ -1,50 +1,78 @@
 ---
-title: "Post with Large Feature Image and Text"
-date: "2020-07-27T07:26:03.284Z"
-description: "Custom written post descriptions are the way to go... if you're not lazy."
-categories: [paragraph, feature photo]
+title: "How This Theme Works"
+date: "2026-09-24T08:00:00.000Z"
+description: "A simple guide to how this Gatsby blog theme organizes content, templates, and styling for a clean personal site."
+categories: [gatsby, theme, tutorial]
 comments: true
 image:
-  feature: https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?crop=entropy&dpr=2&fit=crop&fm=jpg&h=475&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1250
-  credit: Greg Rakozy
-  creditlink: https://unsplash.com/photos/oMpAz-DN-9I
+  feature: https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80
+  credit: Unsplash
+  creditlink: https://unsplash.com/
 ---
 
-This is a sample post with a large feature image[^1] up top and tons of text. Odio ad blue bottle vinyl, 90's narwhal commodo bitters pour-over nostrud. Ugh est hashtag in, fingerstache adipisicing laboris esse Pinterest shabby chic Portland. Shoreditch bicycle rights anim, flexitarian laboris put a bird on it vinyl cupidatat narwhal. Hashtag artisan skateboard, flannel Bushwick nesciunt salvia aute fixie do plaid post-ironic dolor McSweeney's. Cliche pour-over chambray nulla four loko skateboard sapiente hashtag.
+This theme is a lightweight Gatsby blog starter designed for a clean personal website. The goal is simple: write content in Markdown, let Gatsby turn it into pages, and keep the layout fast, readable, and easy to customize.
 
-Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. Ea fashion axe Marfa cillum aliquip. Retro Bushwick keytar cliche. Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.
+If you are building from this project, the main idea is that each blog post is stored as a folder with an `index.md` file inside it. Gatsby reads those files, extracts the frontmatter, and creates a page for each post automatically.
 
-## Cupidatat 90's lo-fi authentic try-hard
+## Where the content lives
 
-In pug Portland incididunt mlkshk put a bird on it vinyl quinoa. Terry Richardson shabby chic +1, scenester Tonx excepteur tempor fugiat voluptate fingerstache aliquip nisi next level. Farm-to-table hashtag Truffaut, Odd Future ex meggings gentrify single-origin coffee try-hard 90's.
+The posts are grouped inside the folder at [content/blog](../../../../content/blog). Each entry is a separate folder with its own Markdown file. The theme reads every post from there and sorts them by date to build the homepage and individual article pages.
 
-- Sartorial hoodie
-- Labore viral forage
-- Tote bag selvage
-- DIY exercitation et id ugh tumblr church-key
+A typical post starts with frontmatter like this:
 
-Incididunt umami sriracha, ethical fugiat VHS ex assumenda yr irure direct trade. Marfa Truffaut bicycle rights, kitsch placeat Etsy kogi asymmetrical. Beard locavore flexitarian, kitsch photo booth hoodie plaid ethical readymade leggings yr.
+```yaml
+---
+title: "How This Theme Works"
+date: "2026-09-24T08:00:00.000Z"
+description: "A simple guide to how this Gatsby blog theme works."
+---
+```
 
-Aesthetic odio dolore, meggings disrupt qui readymade stumptown brunch Terry Richardson pour-over gluten-free. Banksy american apparel in selfies, biodiesel flexitarian organic meh wolf quinoa gentrify banjo kogi. Readymade tofu ex, scenester dolor umami fingerstache occaecat fashion axe Carles jean shorts minim. Keffiyeh fashion axe nisi Godard mlkshk dolore. Lomo you probably haven't heard of them eu non, Odd Future Truffaut pug keytar meggings McSweeney's Pinterest cred. Etsy literally aute esse, eu bicycle rights qui meggings fanny pack. Gentrify leggings pug flannel duis.
+That metadata is used to set the page title, date, and description. The real article body follows after the frontmatter section.
 
-## Forage occaecat cardigan qui
+## How the pages are created
 
-Fashion axe hella gastropub lo-fi kogi 90's aliquip +1 veniam delectus tousled. Cred sriracha locavore gastropub kale chips, iPhone mollit sartorial. Anim dolore 8-bit, pork belly dolor photo booth aute flannel small batch. Dolor disrupt ennui, tattooed whatever salvia Banksy sartorial roof party selfies raw denim sint meh pour-over. Ennui eu cardigan sint, gentrify iPhone cornhole.
+The page generation logic lives in [gatsby-node.js](../../../../gatsby-node.js). It queries all Markdown files, sorts them by date, and then creates:
 
-> Whatever velit occaecat quis deserunt gastropub, leggings elit tousled roof party 3 wolf moon kogi pug blue bottle ea. Fashion axe shabby chic Austin quinoa pickled laborum bitters next level, disrupt deep v accusamus non fingerstache.
+- one page per post
+- a paginated blog listing page for the homepage
+- previous/next links between articles
 
-Tote bag asymmetrical elit sunt. Occaecat authentic Marfa, hella McSweeney's next level irure veniam master cleanse. Sed hoodie letterpress artisan wolf leggings, 3 wolf moon commodo ullamco. Anim occupy ea labore Terry Richardson. Tofu ex master cleanse in whatever pitchfork banh mi, occupy fugiat fanny pack Austin authentic. Magna fugiat 3 wolf moon, labore McSweeney's sustainable vero consectetur. Gluten-free disrupt enim, aesthetic fugiat jean shorts trust fund keffiyeh magna try-hard.
+This is the part that turns raw content into usable website pages without manual setup for each post.
 
-## Hoodie Duis
+## Templates and layout
 
-Actually salvia consectetur, hoodie duis lomo YOLO sunt sriracha. Aute pop-up brunch farm-to-table odio, salvia irure occaecat. Sriracha small batch literally skateboard. Echo Park nihil hoodie, aliquip forage artisan laboris. Trust fund reprehenderit nulla locavore. Stumptown raw denim kitsch, keffiyeh nulla twee dreamcatcher fanny pack ullamco 90's pop-up est culpa farm-to-table. Selfies 8-bit do pug odio.
+The theme uses templates from the [src/templates](../../../../src/templates) folder:
 
-### Thundercats Ho!
+- [src/templates/blog-post.js](../../../../src/templates/blog-post.js) renders a single article
+- [src/templates/blog-list.tsx](../../../../src/templates/blog-list.tsx) renders the homepage and paginated list
 
-Fingerstache thundercats Williamsburg, deep v scenester Banksy ennui vinyl selfies mollit biodiesel duis odio pop-up. Banksy 3 wolf moon try-hard, sapiente enim stumptown deep v ad letterpress. Squid beard brunch, exercitation raw denim yr sint direct trade. Raw denim narwhal id, flannel DIY McSweeney's seitan. Letterpress artisan bespoke accusamus, meggings laboris consequat Truffaut qui in seitan. Sustainable cornhole Schlitz, twee Cosby sweater banh mi deep v forage letterpress flannel whatever keffiyeh. Sartorial cred irure, semiotics ethical sed blue bottle nihil letterpress.
+The layout and shared page structure are kept in the components folder, so the design stays consistent across posts.
 
-Occupy et selvage squid, pug brunch blog nesciunt hashtag mumblecore skateboard yr kogi. Ugh small batch swag four loko. Fap post-ironic qui tote bag farm-to-table american apparel scenester keffiyeh vero, swag non pour-over gentrify authentic pitchfork. Schlitz scenester lo-fi voluptate, tote bag irony bicycle rights pariatur vero Vice freegan wayfarers exercitation nisi shoreditch. Chambray tofu vero sed. Street art swag literally leggings, Cosby sweater mixtape PBR lomo Banksy non in pitchfork ennui McSweeney's selfies. Odd Future Banksy non authentic.
+## Styling and customization
 
-Aliquip enim artisan dolor post-ironic. Pug tote bag Marfa, deserunt pour-over Portland wolf eu odio intelligentsia american apparel ugh ea. Sunt viral et, 3 wolf moon gastropub pug id. Id fashion axe est typewriter, mlkshk Portland art party aute brunch. Sint pork belly Cosby sweater, deep v mumblecore kitsch american apparel. Try-hard direct trade tumblr sint skateboard. Adipisicing bitters excepteur biodiesel, pickled gastropub aute veniam.
+This project also includes typography and styling helpers. That means you can change fonts, spacing, and overall visual tone without rewriting the underlying page structure. If you want a different look, the best place to start is usually the shared components and the typography utilities.
 
-[^1]: Texture image courtesty of [Lovetextures](http://www.lovetextures.com/)
+## How to add a new post
+
+To add your own content, create a new folder inside [content/blog](../../../../content/blog), add an `index.md` file, and include the required frontmatter fields. Then run the build again and Gatsby will generate the new page automatically.
+
+A clean workflow looks like this:
+
+1. Create a new blog folder.
+2. Add `index.md` with title, date, and description.
+3. Write the article body in Markdown.
+4. Run the project build or start the dev server.
+
+That is the core of how this theme works: content in Markdown, templates in React, and Gatsby handling the build and routing automatically.
+
+## Summary
+
+This theme is easy to work with because it separates responsibilities:
+
+- content lives in Markdown files
+- templates control presentation
+- Gatsby handles page generation
+- styling is centralized for simple theme adjustments
+
+If you want to customize the site, keep the same pattern: update the content files for posts, the templates for structure, and the shared styling for the look and feel.
