@@ -1,13 +1,9 @@
 ---
 title: "What Is HTML ?"
 date: "2026-09-24T08:00:00.000Z"
-description: "A simple guide to how this Gatsby blog theme organizes content, templates, and styling for a clean personal site."
-categories: [gatsby, theme, tutorial]
+description: "This is an explanation of HTML."
+categories: [Web Blogging, HTML]
 comments: true
-image:
-  feature: https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80
-  Credit: Unsplash
-  creditlink: https://unsplash.com/
 ---
 ## html 
 HTML is the hypertext markup language. This is a language used to make the skeleton of the web and make raw webpage 
