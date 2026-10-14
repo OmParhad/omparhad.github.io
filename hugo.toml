@@ -1,0 +1,67 @@
+baseURL = 'https://omparhad.github.io/'
+title = 'Om Parhad'
+locale = 'en-us'
+defaultContentLanguage = 'en'
+theme = 'PaperMod'
+themesDir = 'themes/themes'
+enableRobotsTXT = true
+
+[params]
+	env = 'production'
+	title = 'Om Parhad'
+	description = 'Notes and tutorials on programming, technology, and what I am learning.'
+	author = 'Om Parhad'
+	mainSections = ['posts']
+	defaultTheme = 'light'
+	ShowReadingTime = true
+	ShowShareButtons = true
+	ShowPostNavLinks = true
+	ShowBreadCrumbs = true
+	ShowCodeCopyButtons = true
+	ShowWordCount = false
+	ShowRssButtonInSectionTermList = true
+	UseHugoToc = true
+
+[params.homeInfoParams]
+	Title = "Hi, I'm Om"
+	Content = "I'm learning backend development and sharing notes and projects along the way. Find me on [Peerlist](https://peerlist.io/omparhad)."
+
+[[params.socialIcons]]
+	name = 'github'
+	url = 'https://github.com/OmParhad'
+
+[[params.socialIcons]]
+	name = 'linkedin'
+	url = 'https://www.linkedin.com/in/omparhad'
+
+[[params.socialIcons]]
+	name = 'email'
+	url = 'mailto:omparhad@proton.me'
+	title = 'Email'
+
+[outputs]
+	home = ['HTML', 'RSS', 'JSON']
+
+[[menu.main]]
+	identifier = 'posts'
+	name = 'Posts'
+	url = '/posts/'
+	weight = 10
+
+[[menu.main]]
+	identifier = 'archives'
+	name = 'Archives'
+	url = '/archives/'
+	weight = 20
+
+[[menu.main]]
+	identifier = 'search'
+	name = 'Search'
+	url = '/search/'
+	weight = 30
+
+[[menu.main]]
+	identifier = 'tags'
+	name = 'Tags'
+	url = '/tags/'
+	weight = 40
