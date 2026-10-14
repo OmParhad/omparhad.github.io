@@ -1,7 +1,6 @@
 +++ title = 'How AGI is Coined' date = 2026-10-14 draft = false description = 'A short introduction to Python, with a first program, basic values, and links to trusted learning resources.' author = 'Om Parhad' tags = ['Python', 'Programming ', ' Artificial General Intelligence '] categories = ['AI'] ShowToc = true TocOpen = false
 
-[cover] image = 'image.png' alt = 'The AGI cover image' caption = 'AGI.' +++
-
+[cover] image = 'AGI.png' alt = 'The AGI cover image' caption = 'AGI.' +++
 
 
 # From Artificial to Augmentic: How the Meaning of General Intelligence Has Evolved
