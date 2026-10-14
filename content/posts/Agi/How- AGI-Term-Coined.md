@@ -1,6 +1,6 @@
-+++ title = 'Getting Started with Python' date = 2026-10-14 draft = false description = 'A short introduction to Python, with a first program, basic values, and links to trusted learning resources.' author = 'Om Parhad' tags = ['Python', 'Programming'] categories = ['Programming'] ShowToc = true TocOpen = false
++++ title = 'From Artificial to Augmentic: How the Meaning of General Intelligence Has Evolved ' date = 2026-10-14 draft = false description = 'A short introduction to Python, with a first program, basic values, and links to trusted learning resources.' author = 'Om Parhad' tags = ['Python', 'Programming'] categories = ['Programming', 'Artificial Intelligence'] ShowToc = true TocOpen = false
 
-[cover] image = 'AGI.png' alt = 'The Python programming language logo' caption = 'The official Python logo.' +++
+[cover] image = 'python-logo.png' alt = 'The Python programming language logo' caption = 'The official Python logo.' +++
 
 Python is a general-purpose programming language known for readable syntax and a large collection of libraries. This short example introduces the shape of a Python program and links to resources for learning more.
 
