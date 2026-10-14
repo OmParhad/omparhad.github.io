@@ -1,3 +1,7 @@
+<img width="5240" height="3240" alt="image" src="https://github.com/user-attachments/assets/8b2eb3db-8570-4773-8d66-40e473ad49ec" /><img width="5240" height="3240" alt="image" src="https://github.com/user-attachments/assets/ead0b74d-bd9d-4258-8a6c-e8e29fbf76d9" />
+![AGI](image.png)
+
+
 # From Artificial to Augmentic: How the Meaning of General Intelligence Has Evolved
 
 *Exploring the history of AGI, the changing relationship between humans and intelligent machines, and the possibility of intelligence designed to augment rather than replace us.*
