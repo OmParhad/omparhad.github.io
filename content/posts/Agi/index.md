@@ -1,8 +1,23 @@
-+++ title = 'From Artificial to Augmentic: How the Meaning of General Intelligence Has Evolved ' date = 2026-10-14 draft = false description = 'A short introduction to Python, with a first program, basic values, and links to trusted learning resources.' author = 'Om Parhad' tags = ['Python', 'Programming'] categories = ['Programming', 'Artificial Intelligence'] ShowToc = true TocOpen = false
++++
+title = 'From Artificial to Augmentic: How the Meaning of General Intelligence Has Evolved'
+date = 2026-10-14
+draft = false
+description = 'Explore the evolution of artificial general intelligence and the idea of Augmentic General Intelligence, where AI is designed to augment human intelligence rather than replace it.'
+author = 'Om Parhad'
+tags = ['Artificial Intelligence', 'AGI', 'Intelligence Augmentation']
+categories = ['Artificial Intelligence', 'Technology']
+ShowToc = true
+TocOpen = false
 
-[cover] image = 'python-logo.png' alt = 'The Python programming language logo' caption = 'The official Python logo.' +++
+[cover]
+image = 'agi-cover.png'
+alt = 'Conceptual illustration of human intelligence working alongside artificial intelligence'
+caption = 'From artificial intelligence to human intelligence augmentation.'
++++
 
-Python is a general-purpose programming language known for readable syntax and a large collection of libraries. This short example introduces the shape of a Python program and links to resources for learning more.
+Artificial intelligence has evolved from an attempt to simulate human reasoning into a broader ambition to build systems capable of general-purpose intelligence. But what if the goal were not simply to create intelligent machines, but to use them to expand human capabilities?
+
+This article explores the history of Artificial General Intelligence (AGI), the origins of intelligence augmentation, and the proposed concept of Augmentic General Intelligence—a human-centred vision of intelligent systems that help people learn, reason, and create more effectively.
 
 # From Artificial to Augmentic: How the Meaning of General Intelligence Has Evolved
 
