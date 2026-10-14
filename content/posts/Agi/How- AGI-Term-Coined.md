@@ -1,5 +1,8 @@
-<img width="5240" height="3240" alt="image" src="https://github.com/user-attachments/assets/8b2eb3db-8570-4773-8d66-40e473ad49ec" /><img width="5240" height="3240" alt="image" src="https://github.com/user-attachments/assets/ead0b74d-bd9d-4258-8a6c-e8e29fbf76d9" />
-![AGI](image.png)
++++ title = 'How AGI is Coined' date = 2026-10-14 draft = false description = 'A short introduction to Python, with a first program, basic values, and links to trusted learning resources.' author = 'Om Parhad' tags = ['Python', 'Programming'] categories = ['Programming'] ShowToc = true TocOpen = false
+
+[cover] image = '' alt = 'The Python programming language logo' caption = 'The official Python logo.' +++
+
+Python is a general-purpose programming language known for readable syntax and a large collection of libraries. This short example introduces the shape of a Python program and links to resources for learning more.
 
 
 # From Artificial to Augmentic: How the Meaning of General Intelligence Has Evolved
