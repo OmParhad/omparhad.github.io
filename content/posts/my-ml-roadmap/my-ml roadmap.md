@@ -1,7 +1,7 @@
 ---
 title: "My 6-Month ML/Data Science Roadmap (No Master's Required)"
 date: 2026-10-24
-tags: ["Machine Learning", "Data Science", "Career", "Learning in Public"]
+tags: ["Machine Learning", "Data Science", "Career", "Learning in Public", "personal"]
 categories: ["Tech", "Career"]
 ShowToc: true
 TocOpen: false
@@ -18,9 +18,6 @@ I am a college student studying AI/DS. The standard advice is to get a Master's 
 To do that, I need a strict plan. I have a habit of getting distracted by shiny new frameworks or new languages. So, I have locked my resources. **No new courses. No new languages. Just execution.**
 
 Here is exactly how I am building my skills over the next 6-8 months.
-
-![A desk with a laptop and coffee](https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop) 
-*Time to put in the work.*
 
 ## The Goal
 Entry-level ML Engineer, Data Scientist, or Data Analyst. 
