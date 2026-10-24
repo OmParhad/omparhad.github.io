@@ -6,6 +6,11 @@ categories: ["Tech", "Career"]
 ShowToc: true
 TocOpen: false
 draft: false
+cover:
+    image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1200&auto=format&fit=crop" # You can change this to your own image path later
+    alt: "Code on a screen"
+    caption: "Locking in the plan."
+    relative: false
 ---
 
 I am a college student studying AI/DS. The standard advice is to get a Master's degree to break into Machine Learning. I don't want to wait, and I don't want to rely solely on a degree. I want to be industry-ready in 6 to 8 months.
@@ -13,6 +18,9 @@ I am a college student studying AI/DS. The standard advice is to get a Master's 
 To do that, I need a strict plan. I have a habit of getting distracted by shiny new frameworks or new languages. So, I have locked my resources. **No new courses. No new languages. Just execution.**
 
 Here is exactly how I am building my skills over the next 6-8 months.
+
+![A desk with a laptop and coffee](https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop) 
+*Time to put in the work.*
 
 ## The Goal
 Entry-level ML Engineer, Data Scientist, or Data Analyst. 
