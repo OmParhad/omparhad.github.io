@@ -15,7 +15,7 @@ Day 1 is officially in the books. It was messy; I started late, I hit a paywall,
 
 Here is the breakdown of what I actually accomplished today, acting as both a study log and a revision for my exams.
 
-> 📄 **[Download my complete Day 1 Notes here (PDF)](/pdfs/)**
+> 📄 **[Download my complete Day 1 Notes here (PDF)](static/pdfs/First-Day-of-ML.pdf)**
 > *(Includes detailed definitions, regression vs classification, and the ML table)*
 
 ## 1. DSA: Time Complexity
@@ -58,11 +58,23 @@ I just started the basics today. I pivoted to Krish Naik's notes because the fre
 ## 4. The Reality Check (The 5 PM Rule)
 My timetable said "Hard Stop at 5:00 PM." I actually stopped at 5:00 PM. I didn't finish everything I wanted to. I didn't finish the ML video, and I didn't get to the Stats video. 
 
-But I stopped anyway. Because burnout is the enemy of consistency. I rested, ate dinner, and went to my IITj college class.
+But I stopped anyway, because burnout is the enemy of consistency.
 
 ## What's Next (Day 2)
 - Optimize "Two Sum" using a Hash Map.
 - Finish the CampusX ML video I started today.
 - Keep the 5 PM hard stop.
 
-If you are also learning in public, let's connect. The grind is real.
+
+If you're on a similar journey or just want to say hi, you can find me here:
+
+*    **Portfolio:** https://omparhad.github.io
+*    **Fiction Blog:** https://omparhadz.blogspot.com
+*    **Medium:** https://omparhad.medium.com
+*    **LinkedIn:** https://linkedin.com/in/omparhad
+*    **X (Twitter):** https://x.com/om_parhad
+*    **Peerlist:** https://peerlist.io/omparhad
+*    **GitHub:** https://github.com/omparhad
+*    **Email:** omparhad@proton.me
+
+
