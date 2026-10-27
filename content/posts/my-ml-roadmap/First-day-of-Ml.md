@@ -15,7 +15,7 @@ Day 1 is officially in the books. It was messy; I started late, I hit a paywall,
 
 Here is the breakdown of what I actually accomplished today, acting as both a study log and a revision for my exams.
 
-> 📄 **[Download my complete Day 1 Notes here (PDF)](static/pdfs/First-Day-of-ML.pdf)**
+> 📄 **[Download my complete Day 1 Notes here (PDF)](/pdfs/First-Day-of-ML.pdf)**
 > *(Includes detailed definitions, regression vs classification, and the ML table)*
 
 ## 1. DSA: Time Complexity
