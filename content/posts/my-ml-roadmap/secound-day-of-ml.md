@@ -15,7 +15,7 @@ Day 2 was a weird one. I overslept, lost half the day, and completely shifted my
 
 Here is the breakdown of what I actually accomplished today.
 
-> 📄 **[Download my complete Day 2 Notes here (PDF)](/pdfs/Day-2-Notes.pdf)**
+> 📄 **[Download my complete Day 2 Notes here (PDF)](/pdfs/day-2-notes-dsa-ml.pdf)**
 > *(Includes the Hash Map breakdown and ML classification table)*
 
 ## 1. DSA: Optimizing "Two Sum" to O(n)
