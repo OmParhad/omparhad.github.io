@@ -7,6 +7,54 @@ themesDir = 'themes/themes'
 enableRobotsTXT = true
 
 [params]
+	env = 'production'
+	title = 'Om Parhad | Full-Stack Developer'
+	description = 'Om Parhad builds full-stack web applications and practical AI-powered tools.'
+	author = 'Om Parhad'
+	mainSections = ['posts']
+	defaultTheme = 'light'
+	ShowReadingTime = true
+	ShowShareButtons = true
+	ShowPostNavLinks = true
+	ShowBreadCrumbs = true
+	ShowCodeCopyButtons = true
+	ShowWordCount = false
+	ShowRssButtonInSectionTermList = true
+	UseHugoToc = true
+
+[[params.socialIcons]]
+	name = 'github'
+	url = 'https://github.com/OmParhad'
+
+[[params.socialIcons]]
+	name = 'linkedin'
+	url = 'https://www.linkedin.com/in/omparhad'
+
+[[params.socialIcons]]
+	name = 'email'
+	url = 'mailto:omparhad@proton.me'
+	title = 'Email'
+
+[outputs]
+	home = ['HTML', 'RSS', 'JSON']
+
+[[menu.main]]
+	identifier = 'projects'
+	name = 'Projects'
+	url = '/projects/'
+	weight = 10
+
+[[menu.main]]
+	identifier = 'about'
+	name = 'About'
+	url = '/about/'
+	weight = 20
+
+[[menu.main]]
+	identifier = 'contact'
+	name = 'Contact'
+	url = 'mailto:omparhad@proton.me'
+	weight = 30
   env = 'production'
   title = 'Om Parhad'
   description = 'Full-stack developer building practical web applications and AI-powered products.'
