@@ -55,3 +55,33 @@ enableRobotsTXT = true
 	name = 'Contact'
 	url = 'mailto:omparhad@proton.me'
 	weight = 30
+  env = 'production'
+  title = 'Om Parhad'
+  description = 'Full-stack developer building practical web applications and AI-powered products.'
+  author = 'Om Parhad'
+  mainSections = ['posts']
+  defaultTheme = 'dark'
+  disableThemeToggle = true
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = false
+  ShowCodeCopyButtons = true
+  ShowWordCount = false
+  ShowRssButtonInSectionTermList = false
+  UseHugoToc = true
+
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
+
+[[menu.main]]
+  identifier = 'projects'
+  name = 'Projects'
+  url = '/projects/'
+  weight = 10
+
+[[menu.main]]
+  identifier = 'contact'
+  name = 'Contact'
+  url = '#contact'
+  weight = 20
